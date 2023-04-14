@@ -1,0 +1,13 @@
+{
+  "urls": {
+    "hekate": "https://github.com/CTCaer/hekate/releases/latest",
+    "atmosphere": "https://github.com/Atmosphere-NX/Atmosphere/releases/latest",
+    "tegra": "https://github.com/eliboa/TegraRcmGUI/releases/latest",
+    "sigpatches": "https://sigmapatches.coomer.party/",
+    "dbi_installer": "https://github.com/rashevskyv/dbi/releases/latest"
+  },
+  "config": {
+    "ipl": "[config]\nautoboot=0\nautoboot_list=0\nbootwait=0\nbacklight=220\nautohosoff=0\nautonogc=1\nupdater2p=1\n\n{Versión del Pack de CFW de NinTricks}\n\n{--- Custom Firmware ---}\n\n[Atmosphere (EMUMMC)]\npayload=bootloader/payloads/fusee.bin\nicon=bootloader/res/atmoslogo.bmp\nlogopath=bootloader/bootlogo.bmp\n{}\n\n{-------- Stock -------}\n[Stock]\nfss0=atmosphere/package3\nstock=1\nemummc_force_disable=1\nicon=bootloader/res/icon_switch.bmp\n{}\n",
+    "nyx": "[config]\nthemecolor=201\ntimeoff=21af6740\nhomescreen=0\nverification=1\numsemmcrw=0\n",
+  }
+}
